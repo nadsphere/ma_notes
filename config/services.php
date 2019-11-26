@@ -30,4 +30,14 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'firebase' => [
+        'api_key' => 'AIzaSyC8Zogij_YoPMsOEEIuvjYKOmPNhXpgbPs',
+        'auth_domain' => 'manote-425e4.firebaseapp.com',
+        'database_url' => 'https://manote-425e4.firebaseio.com',
+        'storage_bucket' => 'manote-425e4.appspot.com',
+        'project_id' => 'manote-425e4',
+        'messaging_sender_id' => '1048669011182',
+        'app_id' => '1:1048669011182:web:9888b17009eeb6261a07ff',
+    ],
+
 ];
